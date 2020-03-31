@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: white;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    margin: auto;
+}
+
+
+
+header{
+    width: 960px;
+    height: 10em;
+    text-align: center;
+    line-height: 100px;
+    margin: auto;
+    display: grid;
+}
+
+
+h1{
+    font-size: 45px;
+}
+img{
+    width: 180px;
+    height: 240px;
+}
+
+div{
+    background-color: antiquewhite;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+#container{
+    /* display: none; */
+    width: 0em;
+}
+footer nav{
+    clear: both;
+}
+main{
+    margin: auto;
+    width: 1040px;
+    height: 100px;
+}
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 110px;
+    height: 30px;
+    justify-content: space-around;
+}
+footer nav{
+    width: 150px;
+    background-color: aliceblue;
+    height: 100px;
+    margin: auto;
+}
+select{
+    width: 155px;
+    margin: auto;
+}
+option{
+    margin: auto;
+    height: 100px;
+}
